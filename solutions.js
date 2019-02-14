@@ -122,14 +122,14 @@ console.log(keySize(legend));
 /*6. Create a function that will take in an object and check to see if the legend object has a property of 'occupation'.*/
 
 /*@param {Object}
-@return {Object}*/
+@return boolean*/
 
 function checkProp(obj){
   for(var prop in obj){
   	if(obj.hasOwnProperty('occupation')){
-  		return "Yes, Mr. Lee beats up punks for a living.";
+  		return true;
   	}else{
-  		return "Nope, he mines bitcoins";
+  		return false;
   	}
   }
 }
