@@ -81,7 +81,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 /*6. Create a function that will take in an object and check to see if the legend object has a property of 'occupation'.*/
 
 /*@param {Object}
-@return {Object}*/
+@return boolean*/
 
 
 
