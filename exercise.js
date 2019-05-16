@@ -4,7 +4,7 @@
 /*for(var in object){
    //your logic
 }*/
-
+console.log('stupid')
 //Here is example of using a for-in loop to iterate through properties of the following object:
 var prepClass = {
 	month: "February",
